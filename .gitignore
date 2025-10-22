@@ -1,0 +1,40 @@
+# Environment variables (contains secrets)
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+nohup.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# PM2
+.pm2/
+pm2.log
+pm2-error.log
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+dist/
+build/

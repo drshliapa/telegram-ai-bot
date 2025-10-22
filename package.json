@@ -1,0 +1,40 @@
+{
+  "name": "telegram-ai-bot",
+  "version": "1.0.0",
+  "description": "Telegram Client Bot using MTProto API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "mtproto",
+    "ai",
+    "llm",
+    "openrouter",
+    "ollama",
+    "chatbot"
+  ],
+  "author": "Marian Leontiev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drshliapa/telegram-ai-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drshliapa/telegram-ai-bot/issues"
+  },
+  "homepage": "https://github.com/drshliapa/telegram-ai-bot#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "pino": "^10.1.0",
+    "pino-roll": "^4.0.0",
+    "telegram": "^2.26.22"
+  }
+}
